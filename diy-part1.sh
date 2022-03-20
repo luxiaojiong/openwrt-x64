@@ -19,4 +19,5 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # 651 patch
+cd package/kernel/mac80211/patches/rt2x00/
 curl -O https://github.com/WYC-2020/lede/blob/master/package/kernel/mac80211/patches/rt2x00/651-rt2x00-driver-compile-with-kernel-5.15.patch
